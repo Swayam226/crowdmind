@@ -55,11 +55,25 @@ export default function HomePage() {
   const [selectedCity, setSelectedCity] = useState("")
   const [isLoading, setIsLoading] = useState(false)
   const [showResults, setShowResults] = useState(false)
+  const [liveData, setLiveData] = useState<any>(null)
 
   const handleSearch = async () => {
     if (!policy || !selectedState || !selectedCity) return
 
     setIsLoading(true)
+    // For demo: Only fetch live data for the bike taxi ban in Karnataka
+    if (
+      policy.toLowerCase().includes('bike taxi') &&
+      selectedState === 'Karnataka'
+    ) {
+      try {
+        const res = await fetch('/api/reddit-policy')
+        const json = await res.json()
+        setLiveData(json)
+      } catch (e) {
+        setLiveData(null)
+      }
+    }
     await new Promise((resolve) => setTimeout(resolve, 2500))
     setIsLoading(false)
     setShowResults(true)
@@ -73,6 +87,11 @@ export default function HomePage() {
   }
 
   if (showResults) {
+    // If liveData is set, show the full dashboard for bike taxi ban
+    if (liveData) {
+      return <SentimentDashboard data={liveData} onBack={resetSearch} />
+    }
+    // fallback to mockData for other policies
     return <SentimentDashboard data={mockData.policies[0]} onBack={resetSearch} />
   }
 
