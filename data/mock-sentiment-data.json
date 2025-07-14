@@ -1,0 +1,154 @@
+{
+  "policies": [
+    {
+      "id": "nep-2020-maharashtra-pune",
+      "policy": "NEP 2020",
+      "location": "Pune, Maharashtra",
+      "totalPosts": 2847,
+      "totalComments": 8934,
+      "totalEngagement": 45672,
+      "analysisDate": "2024-01-15T10:30:00Z",
+      "sentimentDistribution": {
+        "positive": 1142,
+        "negative": 1278,
+        "neutral": 427
+      },
+      "sentimentScore": 0.42,
+      "topKeywords": [
+        { "text": "education", "value": 156, "sentiment": "neutral" },
+        { "text": "students", "value": 134, "sentiment": "positive" },
+        { "text": "teachers", "value": 128, "sentiment": "negative" },
+        { "text": "curriculum", "value": 98, "sentiment": "positive" },
+        { "text": "implementation", "value": 87, "sentiment": "negative" },
+        { "text": "digital", "value": 76, "sentiment": "positive" },
+        { "text": "schools", "value": 72, "sentiment": "neutral" },
+        { "text": "quality", "value": 65, "sentiment": "positive" },
+        { "text": "policy", "value": 58, "sentiment": "neutral" },
+        { "text": "learning", "value": 54, "sentiment": "positive" },
+        { "text": "infrastructure", "value": 48, "sentiment": "negative" },
+        { "text": "funding", "value": 42, "sentiment": "negative" },
+        { "text": "innovation", "value": 38, "sentiment": "positive" },
+        { "text": "assessment", "value": 35, "sentiment": "neutral" },
+        { "text": "multilingual", "value": 32, "sentiment": "positive" }
+      ],
+      "weeklyTrend": [
+        { "date": "2024-01-08", "positive": 45, "negative": 52, "neutral": 18, "total": 115 },
+        { "date": "2024-01-09", "positive": 52, "negative": 48, "neutral": 22, "total": 122 },
+        { "date": "2024-01-10", "positive": 48, "negative": 55, "neutral": 19, "total": 122 },
+        { "date": "2024-01-11", "positive": 58, "negative": 42, "neutral": 28, "total": 128 },
+        { "date": "2024-01-12", "positive": 62, "negative": 38, "neutral": 25, "total": 125 },
+        { "date": "2024-01-13", "positive": 55, "negative": 45, "neutral": 32, "total": 132 },
+        { "date": "2024-01-14", "positive": 68, "negative": 35, "neutral": 28, "total": 131 }
+      ],
+      "hourlyActivity": [
+        { "hour": "00:00", "posts": 12 },
+        { "hour": "01:00", "posts": 8 },
+        { "hour": "02:00", "posts": 5 },
+        { "hour": "03:00", "posts": 3 },
+        { "hour": "04:00", "posts": 4 },
+        { "hour": "05:00", "posts": 7 },
+        { "hour": "06:00", "posts": 15 },
+        { "hour": "07:00", "posts": 28 },
+        { "hour": "08:00", "posts": 45 },
+        { "hour": "09:00", "posts": 62 },
+        { "hour": "10:00", "posts": 78 },
+        { "hour": "11:00", "posts": 85 },
+        { "hour": "12:00", "posts": 92 },
+        { "hour": "13:00", "posts": 88 },
+        { "hour": "14:00", "posts": 95 },
+        { "hour": "15:00", "posts": 102 },
+        { "hour": "16:00", "posts": 98 },
+        { "hour": "17:00", "posts": 89 },
+        { "hour": "18:00", "posts": 76 },
+        { "hour": "19:00", "posts": 68 },
+        { "hour": "20:00", "posts": 58 },
+        { "hour": "21:00", "posts": 45 },
+        { "hour": "22:00", "posts": 32 },
+        { "hour": "23:00", "posts": 18 }
+      ],
+      "topSubreddits": [
+        { "name": "r/Pune", "posts": 456, "sentiment": 0.35 },
+        { "name": "r/Maharashtra", "posts": 342, "sentiment": 0.42 },
+        { "name": "r/india", "posts": 298, "sentiment": 0.28 },
+        { "name": "r/IndiaEducation", "posts": 234, "sentiment": 0.58 },
+        { "name": "r/Teachers", "posts": 187, "sentiment": 0.31 }
+      ],
+      "recentPosts": [
+        {
+          "id": 1,
+          "title": "NEP 2020 implementation challenges in Maharashtra schools",
+          "content": "The new education policy has some great ideas but the ground reality is different. Many schools in Pune are struggling with infrastructure and teacher training. We need better implementation strategies...",
+          "sentiment": "NEGATIVE",
+          "score": 0.78,
+          "subreddit": "r/Pune",
+          "timestamp": "2024-01-15T10:30:00Z",
+          "upvotes": 145,
+          "comments": 67,
+          "author": "u/PuneEducator"
+        },
+        {
+          "id": 2,
+          "title": "Digital learning initiatives showing promise under NEP",
+          "content": "Really impressed with the digital infrastructure being developed in Pune schools. My daughter's school has implemented smart classrooms and the learning experience has improved significantly. This is the future of education!",
+          "sentiment": "POSITIVE",
+          "score": 0.89,
+          "subreddit": "r/Maharashtra",
+          "timestamp": "2024-01-14T15:22:00Z",
+          "upvotes": 234,
+          "comments": 45,
+          "author": "u/ProudParent2024"
+        },
+        {
+          "id": 3,
+          "title": "Teacher training programs for NEP 2020 - Mixed results",
+          "content": "Attended the NEP training workshop last week. Some good content but feels rushed. Teachers need more time to adapt to these changes. The policy is good on paper but execution needs work.",
+          "sentiment": "NEUTRAL",
+          "score": 0.52,
+          "subreddit": "r/Teachers",
+          "timestamp": "2024-01-13T09:15:00Z",
+          "upvotes": 89,
+          "comments": 34,
+          "author": "u/MathTeacherMH"
+        },
+        {
+          "id": 4,
+          "title": "Multilingual education approach in NEP - Game changer!",
+          "content": "Finally, a policy that recognizes the importance of mother tongue in early education. Seeing great results in rural Maharashtra schools where children are learning in Marathi first. This will boost learning outcomes.",
+          "sentiment": "POSITIVE",
+          "score": 0.92,
+          "subreddit": "r/IndiaEducation",
+          "timestamp": "2024-01-12T14:45:00Z",
+          "upvotes": 312,
+          "comments": 78,
+          "author": "u/EducationReformer"
+        },
+        {
+          "id": 5,
+          "title": "Funding concerns for NEP implementation",
+          "content": "While NEP 2020 has ambitious goals, the funding allocation seems insufficient. Maharashtra needs more budget for infrastructure, teacher training, and technology integration. Without proper funding, this will remain on paper only.",
+          "sentiment": "NEGATIVE",
+          "score": 0.71,
+          "subreddit": "r/india",
+          "timestamp": "2024-01-11T11:20:00Z",
+          "upvotes": 178,
+          "comments": 92,
+          "author": "u/PolicyAnalyst"
+        }
+      ],
+      "demographicBreakdown": {
+        "ageGroups": [
+          { "group": "18-25", "positive": 45, "negative": 35, "neutral": 20 },
+          { "group": "26-35", "positive": 38, "negative": 42, "neutral": 20 },
+          { "group": "36-45", "positive": 32, "negative": 48, "neutral": 20 },
+          { "group": "46-55", "positive": 28, "negative": 52, "neutral": 20 },
+          { "group": "55+", "positive": 25, "negative": 55, "neutral": 20 }
+        ],
+        "regions": [
+          { "region": "Urban Pune", "positive": 42, "negative": 38, "neutral": 20 },
+          { "region": "Suburban Pune", "positive": 35, "negative": 45, "neutral": 20 },
+          { "region": "Rural Maharashtra", "positive": 28, "negative": 52, "neutral": 20 }
+        ]
+      }
+    }
+  ]
+}
